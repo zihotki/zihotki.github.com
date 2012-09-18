@@ -16,17 +16,17 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
-    <!--<link rel="stylesheet" href="css/style.css">-->
+    <link rel="stylesheet" href="css/font-awesome.css"/>
+    <link rel="stylesheet" href="css/nuro.css">
+    <link rel="stylesheet" href="css/site.css">
 
     <script src="js/modernizr-2.5.3-respond-1.1.0.min.js"></script>
 </head>
 <body>
-<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+    <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+    <div class="wrapper">
     <header class="main-header">
         <div class="container">
-            <div class="pull-right">
-                Email Us   <a href="mailto:mail@mail.com">mail@mail.com</a>
-            </div>
             <div class="row">
                 <div class="header-bar span12">
                     <div class="header-bar-inner">                            
@@ -48,20 +48,7 @@
             </div>
         </div>
     </header>
-           <section id="feature">
-            <div class="container">
-                <div class="row">
-                    <div class="span12">
-                        <img class="img-front" src="assets/img/dot1.png" alt="dot1" />
-                        <img class="img-back" src="assets/img/dot2.png" alt="dot2" />
-                        <h3>jQuery.dotdotdot</h3>
-                        <p>Advanced cross-browser ellipsis for multiple line content.
-                        <br/>
-                        <a href="#" class="btn btn-info">Visit site &raquo;</a></p>
-                    </div>
-                </div>
-            </div>
-        </section>
+
 
         <div class="main">
             <div class="container">
@@ -134,7 +121,10 @@
                 </div>
             </div>
         </div>
-
+        
+        <div class="push-footer"></div>
+    </div>
+    <footer>
         <div class="footer">
             <div class="footer-inner">
                 <div class="container">
@@ -156,11 +146,11 @@
                             </ul>
                         </div>
                         <div class="span3">
-                            <h6>Contact Us</h6>
+                            <h6>Contact Me</h6>
                             <ul class="unstyled">
-                                <li><a href="#"><i class="icon-envelope"></i> Mail</a></li>
-                                <li><a href="#"><i class="icon-twitter"></i> Twitter</a></li>
-                                <li><a href="#"><i class="icon-facebook"></i> Facebook</a></li>
+                                <li><a href="mailto:zihotki@gmail.com"><i class="icon-envelope-alt"></i> Mail</a></li>
+                                <li><a href="http://www.linkedin.com/in/vpuchko"><i class="icon-linkedin"></i> LinkedIn</a></li>
+                                <li><a href="http://www.facebook.com/zihotki"><i class="icon-facebook"></i> Facebook</a></li>
                             </ul>
                         </div>
                         <div class="span3">
@@ -181,20 +171,40 @@
                 <div class="container">
                     <div class="row">
                         <div class="span12">                            
-                            © 2012 Site Name                       
+                            &copy; 2012 Vasili Puchko
                         </div>
                     </div>
                 </div>
-                <div id="toTop" class="btn btn-inverse"><i class="icon-caret-up icon-white"></i></div>
+                
             </div>
         </div>
+    </footer>
     
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
+    <div id="toTop" class="btn btn-inverse"><i class="icon-caret-up icon-white" title="To Top"></i></div>
 
-<script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
 
-<!--<script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    
+    <script type="text/javascript">
+        $(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() != 0) {
+                    $('#toTop').fadeIn();
+                } else {
+                    $('#toTop').fadeOut();
+                }
+            });
+            $('#toTop').click(function () {
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 200);
+            });
+        });
+    </script>
+
+    <!--<script>
     var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
     (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
     g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
