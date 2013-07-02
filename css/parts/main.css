@@ -10,7 +10,7 @@
 .main {
   width: 100%;
   background-color: #fff;
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 20px;
 }
 .main h2 {
@@ -29,7 +29,7 @@
   text-align: center;
   text-shadow: 0 1px 0 #FFFFFF;
   text-transform: uppercase;
-  width: 120px;
+  width: 160px;
 }
 .main .home-content article {
   border-radius: 2px;
@@ -38,7 +38,7 @@
   color: #333333;
   min-height: 320px;
   overflow: hidden;
-  margin-top: 16px;
+  margin-top: 10px;
 }
 .main .home-content article .text {
   padding: 20px 20px 10px;
