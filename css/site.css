@@ -1,12 +1,6 @@
 /*
     =================== Base ===================
 */
-/*!
- * Preboot v2
- *
- * Open sourced under MIT license by @mdo.
- * Some variables and mixins from Bootstrap (Apache 2 license).
- */
 body {
   padding-top: 0;
   font-size: 14px;
@@ -37,28 +31,6 @@ a:focus {
 .opacity75 {
   opacity: 0.75;
   filter: alpha(opacity=75);
-}
-/*
-===================== Bottom ============
-*/
-.bottom {
-  border-top: 1px solid #fff;
-  margin-top: 0;
-  background: #eee;
-  color: #999999;
-  padding: 15px 0;
-}
-.bottom .bottom-inner {
-  position: relative;
-}
-#toTop {
-  text-align: center;
-  padding: 5px;
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  cursor: pointer;
-  display: none;
 }
 /*
     ====================== Backbone ======================
@@ -103,7 +75,21 @@ footer,
   clear: both;
   height: 220px;
 }
+.bottom {
+  border-top: 1px solid #fff;
+  margin-top: 0;
+  padding: 15px 0;
+}
+.bottom .bottom-inner {
+  position: relative;
+}
 #toTop {
+  text-align: center;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  display: none;
   font-size: 18px;
   padding: 5px 10px 8px 10px;
 }
@@ -129,6 +115,12 @@ footer,
 /*
 ============================= Header ===============
 */
+/*!
+ * Preboot v2
+ *
+ * Open sourced under MIT license by @mdo.
+ * Some variables and mixins from Bootstrap (Apache 2 license).
+ */
 .main-header {
   height: auto;
 }
