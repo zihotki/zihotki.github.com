@@ -1,0 +1,51 @@
+/*
+============================ Main =======================
+*/
+/*!
+ * Preboot v2
+ *
+ * Open sourced under MIT license by @mdo.
+ * Some variables and mixins from Bootstrap (Apache 2 license).
+ */
+.main {
+  width: 100%;
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.main h2 {
+  margin-top: 26px;
+}
+.main .home-content {
+  border-top: 1px solid #d0d0d0;
+  font-size: 11px;
+}
+.main .home-content h2 {
+  background: #fff;
+  color: #666666;
+  font-size: 12px;
+  font-weight: 600;
+  margin: -20px auto 0px;
+  text-align: center;
+  text-shadow: 0 1px 0 #FFFFFF;
+  text-transform: uppercase;
+  width: 120px;
+}
+.main .home-content article {
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.4);
+  color: #333333;
+  min-height: 320px;
+  overflow: hidden;
+  margin-top: 16px;
+}
+.main .home-content article .text {
+  padding: 20px 20px 10px;
+}
+.main .home-content article .text h3 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0;
+}

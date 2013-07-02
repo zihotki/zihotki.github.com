@@ -1,0 +1,32 @@
+.masthead {
+  width: 100%;
+  background: #E8E7E3;
+  border-top: 1px solid #dbdad7;
+  border-bottom: 1px solid #dbdad7;
+}
+.masthead .masthead-inner {
+  padding: 70px 0 30px;
+  position: relative;
+}
+.masthead .masthead-inner h1,
+.masthead .masthead-inner h2 {
+  color: #333D45;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  line-height: 45px;
+  text-shadow: 0 1px 0 #FFFFFF;
+  text-align: center;
+}
+.masthead .masthead-inner h1 {
+  text-transform: uppercase;
+}
+.masthead .masthead-inner #heading-sub-title {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+.masthead .masthead-inner #heading-sub-title a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #808285;
+}

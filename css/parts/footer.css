@@ -1,0 +1,28 @@
+footer,
+.push-footer {
+  clear: both;
+  height: 220px;
+}
+#toTop {
+  font-size: 18px;
+  padding: 5px 10px 8px 10px;
+}
+.footer {
+  border-bottom: 1px solid #DBDAD7;
+  border-top: 1px solid #DBDAD7;
+  background: #E8E7E3;
+  color: #BBBBBB;
+  padding: 16px 0 0;
+}
+.footer .footer-inner h6 {
+  margin-bottom: 10px;
+}
+.footer .footer-inner a {
+  color: #7D7D7D;
+  display: block;
+}
+.footer .footer-inner a:hover {
+  color: #292929;
+  text-decoration: none;
+  padding-left: 4px;
+}
